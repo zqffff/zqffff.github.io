@@ -1,9 +1,9 @@
 .sidebar {
-  opacity: 0.9;
+  opacity: 0.8;
   border-radius: 20px;
 }
 .header-inner {
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.8);
 }
 .popup {
   opacity: 0.9;
@@ -1210,7 +1210,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #32a14e;
+  background: #ff37fa;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2003,6 +2003,13 @@ pre .javascript .function {
 }
 #qr p {
   text-align: center;
+}
+.post-copyright {
+  background: var(--card-bg-color);
+  border-left: 3px solid #ff2a2a;
+  list-style: none;
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
 }
 .category-all-page .category-all-title {
   text-align: center;
